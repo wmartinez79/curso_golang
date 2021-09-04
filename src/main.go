@@ -33,4 +33,59 @@ func main() {
 	totalArea := squareBase * squareBase
 
 	fmt.Println("totalArea: ", totalArea)
+
+	// Sum
+	x := 10
+	y := 50
+
+	result := x + y
+	fmt.Println("Sum =", result)
+
+	// Substration
+	result = y - x
+	fmt.Println("Substration =", result)
+
+	// Multiplication
+	result = x * y
+	fmt.Println("Multiplication =", result)
+
+	// Division
+	result = y / x
+	fmt.Println("Division =", result)
+
+	// Mod
+	result = y % x
+	fmt.Println("Mod =", result)
+
+	// Incremental
+	x++
+	fmt.Println("Incremental =", x)
+
+	// Decremental
+	x--
+	fmt.Println("Decremental =", x)
+
+	// Challenge
+	// Area Rectangle
+	length := 10
+	width := 5
+
+	result = length * width
+	fmt.Println("Rectangle Area =", result)
+
+	// Area Trapezium
+	base1 := 10
+	base2 := 5
+	height := 3
+
+	result = (base1 * base2 / 2) * height
+	fmt.Println("Trapezium Area =", result)
+
+	// Area circle
+	radius := 10.00
+	var circleArea float64
+
+	circleArea = radius * pi2
+	fmt.Println("Cicle Area =", circleArea)
+
 }
