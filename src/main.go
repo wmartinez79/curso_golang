@@ -82,10 +82,11 @@ func main() {
 	fmt.Println("Trapezium Area =", result)
 
 	// Area circle
-	radius := 10.00
+	radius := 8.88
 	var circleArea float64
+	const piValue float64 = 3.141516
 
-	circleArea = radius * pi2
+	circleArea = radius * piValue
 	fmt.Println("Cicle Area =", circleArea)
 
 }
